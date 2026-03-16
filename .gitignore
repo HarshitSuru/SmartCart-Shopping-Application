@@ -1,0 +1,36 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# Java / Maven
+backend/target/
+backend/.mvn/
+backend/.m2/
+*.class
+
+# Coverage and reports
+coverage/
+
+# Vercel
+.vercel/
