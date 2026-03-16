@@ -1,6 +1,6 @@
 # Online Shopping Cart System
 
-Production-ready full-stack e-commerce application built with Spring Boot, MongoDB, React, and JWT authentication.
+Production-ready full-stack e-commerce application built with Spring Boot, MongoDB, and React.
 
 ## Project Structure
 
@@ -8,7 +8,6 @@ Production-ready full-stack e-commerce application built with Spring Boot, Mongo
 ProjectRoot/
 ├── backend/
 │   ├── docs/
-│   ├── postman/
 │   ├── src/
 │   ├── pom.xml
 │   └── .env
@@ -22,11 +21,10 @@ ProjectRoot/
 
 ## Features
 
-- Product catalog with search, category filters, product details, and inventory-aware cards
-- Persistent MongoDB-backed shopping cart with quantity updates and Stream-based totals
+- Product catalog with search, category filters, and product details
+- Persistent MongoDB-backed shopping cart with quantity updates
 - Checkout flow with async order processing using `CompletableFuture`
 - Order history and order details pages
-- JWT authentication with register/login and role-based admin APIs
 - Admin dashboard for product CRUD and inventory management
 
 ## Core Java Concepts Included
@@ -38,8 +36,7 @@ ProjectRoot/
 
 ## Backend Setup
 
-
-1. Add your MongoDB URL to `MONGO_URI` int the .env file.
+1. Add your MongoDB URL to `MONGO_URI` in the backend `.env` file or terminal session.
 2. Run:
 
 ```bash
@@ -49,14 +46,9 @@ mvn spring-boot:run
 
 Backend runs at `http://localhost:8081`.
 
-Default seeded admin:
-
-- Email: `admin@novacart.com`
-- Password: `Admin@123`
-
 ## Frontend Setup
 
-1. Create a .env and set `REACT_APP_API_BASE_URL` if needed.
+1. Create a frontend `.env` file and set `REACT_APP_API_BASE_URL` if needed.
 2. Run:
 
 ```bash
@@ -70,3 +62,14 @@ Frontend runs at `http://localhost:3000`.
 ## MongoDB URL
 
 Set `MONGO_URI` in your backend environment file or terminal before starting the server.
+
+## API Documentation
+
+- [API documentation](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/backend/docs/api-documentation.md)
+- [MongoDB schema examples](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/backend/docs/mongodb-schema.md)
+
+## Production Notes
+
+- The backend uses layered architecture under `controller/`, `service/`, `repository/`, `model/`, `dto/`, `exception/`, `config/`, and `utils/`.
+- The frontend uses `components/`, `pages/`, `services/`, `context/`, and `utils/`.
+- MongoDB connection details are externalized via environment variables.
