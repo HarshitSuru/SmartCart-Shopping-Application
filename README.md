@@ -73,3 +73,12 @@ Set `MONGO_URI` in your backend environment file or terminal before starting the
 - The backend uses layered architecture under `controller/`, `service/`, `repository/`, `model/`, `dto/`, `exception/`, `config/`, and `utils/`.
 - The frontend uses `components/`, `pages/`, `services/`, `context/`, and `utils/`.
 - MongoDB connection details are externalized via environment variables.
+
+References of the site
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
