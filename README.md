@@ -38,9 +38,9 @@ ProjectRoot/
 
 ## Backend Setup
 
-1. Open [backend/.env.example](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/backend/.env.example) and copy the values into your environment or IDE run configuration.
-2. Add your MongoDB URL to `MONGO_URI`.
-3. Run:
+
+1. Add your MongoDB URL to `MONGO_URI` int the .env file.
+2. Run:
 
 ```bash
 cd backend
@@ -56,7 +56,7 @@ Default seeded admin:
 
 ## Frontend Setup
 
-1. Open [frontend/.env.example](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/frontend/.env.example) and set `REACT_APP_API_BASE_URL` if needed.
+1. Create a .env and set `REACT_APP_API_BASE_URL` if needed.
 2. Run:
 
 ```bash
