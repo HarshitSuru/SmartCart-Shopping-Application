@@ -67,13 +67,9 @@ npm start
 
 Frontend runs at `http://localhost:3000`.
 
-## MongoDB URL Placeholder
+## MongoDB URL
 
-Use this in the backend environment:
-
-```env
-MONGO_URI=mongodb+srv://harshit:harshit123%40@cluster0.loa6kpy.mongodb.net/shopping_cart_db?retryWrites=true&w=majority&appName=Cluster0
-```
+Set `MONGO_URI` in your backend environment file or terminal before starting the server.
 
 ## API Documentation
 
