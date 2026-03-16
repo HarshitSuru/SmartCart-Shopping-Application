@@ -70,15 +70,3 @@ Frontend runs at `http://localhost:3000`.
 ## MongoDB URL
 
 Set `MONGO_URI` in your backend environment file or terminal before starting the server.
-
-## API Documentation
-
-- [API documentation](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/backend/docs/api-documentation.md)
-- [MongoDB schema examples](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/backend/docs/mongodb-schema.md)
-- [Postman collection](/C:/Users/suruh/OneDrive/Desktop/ShoppingCart/backend/postman/shopping-cart-postman-collection.json)
-
-## Production Notes
-
-- The backend uses layered architecture under `controller/`, `service/`, `repository/`, `model/`, `dto/`, `exception/`, `config/`, and `utils/`.
-- The frontend uses `components/`, `pages/`, `services/`, `context/`, and `utils/`.
-- CORS, JWT secret, token expiry, and MongoDB connection are externalized via environment variables.
