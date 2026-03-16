@@ -11,12 +11,12 @@ ProjectRoot/
 │   ├── postman/
 │   ├── src/
 │   ├── pom.xml
-│   └── .env.example
+│   └── .env
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   ├── package.json
-│   └── .env.example
+│   └── .env
 └── README.md
 ```
 
